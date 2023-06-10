@@ -94,7 +94,7 @@ const userImportingDisabledFailMessage =
 
 const ldapTestSuccessMsg = "Successfully connected to LDAP";
 const ldapTestFailMsg =
-  "Error when trying to connect to LDAP. See server.log for details. LDAP test error";
+  "Error when trying to connect to LDAP: 'SocketReset'";
 
 describe("User Federation LDAP tests", () => {
   beforeEach(() => {
