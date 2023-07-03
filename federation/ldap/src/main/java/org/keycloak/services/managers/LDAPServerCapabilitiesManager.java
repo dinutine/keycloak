@@ -89,6 +89,8 @@ public class LDAPServerCapabilitiesManager {
              errorMsg = "ServiceUnavailable";
         if (throwable instanceof javax.naming.InvalidNameException)
              errorMsg = "InvalidName";
+        if (throwable instanceof javax.naming.NameNotFoundException)
+             errorMsg = "NameNotFound";
         if (throwable instanceof javax.naming.ServiceUnavailableException)
              errorMsg = "ServiceUnavailable";
         if (throwable instanceof InvalidBindDNException)
