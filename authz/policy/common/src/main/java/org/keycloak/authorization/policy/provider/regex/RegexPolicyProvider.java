@@ -70,7 +70,7 @@ public class RegexPolicyProvider implements PolicyProvider {
     }
 
     private String getClaimValue(Evaluation evaluation, RegexPolicyRepresentation policy) {
-        Attributes attributes = evaluation.getContext().getIdentity().getAttributes();
+        Attributes attributes = evaluation.getContext().getAttributes();
         String targetClaim = policy.getTargetClaim();
 
         try {
