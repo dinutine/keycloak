@@ -52,7 +52,7 @@ export const defaultContextAttributes = [
   },
   {
     key: "kc.time.date_time",
-    name: "Date/Time (MM/dd/yyyy hh:mm:ss)",
+    name: "Date/Time (yyyy-MM-dd HH:mm:ss)",
   },
   {
     key: "kc.client.network.ip_address",
